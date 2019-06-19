@@ -2,11 +2,11 @@
 //
 
 #include "stdafx.h"
-#include "Source\StlAlgorithms\CStlAlgorithms.h"
+#include "Source\StdAlgorithms\CStdAlgorithms.h"
 
 int main()
 {
-	CStlAlgorithms stlAlgorithm;
+	CStdAlgorithms stlAlgorithm;
 	stlAlgorithm.main();
 	while (true) {}
     return 0;

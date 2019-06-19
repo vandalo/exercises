@@ -16,7 +16,7 @@
     <Filter Include="Exercises">
       <UniqueIdentifier>{2353b5ab-52b2-4962-9cd9-952873770ded}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Exercises\StlAlgorithms">
+    <Filter Include="Exercises\StdAlgorithms">
       <UniqueIdentifier>{9a489ee6-203d-402d-87c7-0dfe856946b9}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -30,14 +30,14 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\StlAlgorithms\CStlAlgorithms.h">
-      <Filter>Exercises\StlAlgorithms</Filter>
+    <ClInclude Include="Source\StdAlgorithms\CStdAlgorithms.h">
+      <Filter>Exercises\StdAlgorithms</Filter>
     </ClInclude>
-    <ClInclude Include="Source\StlAlgorithms\CStlCountAndFind.h">
-      <Filter>Exercises\StlAlgorithms</Filter>
+    <ClInclude Include="Source\StdAlgorithms\CStdCountAndFind.h">
+      <Filter>Exercises\StdAlgorithms</Filter>
     </ClInclude>
-    <ClInclude Include="Source\StlAlgorithms\CStlSort.h">
-      <Filter>Exercises\StlAlgorithms</Filter>
+    <ClInclude Include="Source\StdAlgorithms\CStdSort.h">
+      <Filter>Exercises\StdAlgorithms</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -47,14 +47,14 @@
     <ClCompile Include="Exercises.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Source\StlAlgorithms\CStlAlgorithms.cpp">
-      <Filter>Exercises\StlAlgorithms</Filter>
+    <ClCompile Include="Source\StdAlgorithms\CStdAlgorithms.cpp">
+      <Filter>Exercises\StdAlgorithms</Filter>
     </ClCompile>
-    <ClCompile Include="Source\StlAlgorithms\CStlCountAndFind.cpp">
-      <Filter>Exercises\StlAlgorithms</Filter>
+    <ClCompile Include="Source\StdAlgorithms\CStdCountAndFind.cpp">
+      <Filter>Exercises\StdAlgorithms</Filter>
     </ClCompile>
-    <ClCompile Include="Source\StlAlgorithms\CStlSort.cpp">
-      <Filter>Exercises\StlAlgorithms</Filter>
+    <ClCompile Include="Source\StdAlgorithms\CStdSort.cpp">
+      <Filter>Exercises\StdAlgorithms</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
