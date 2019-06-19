@@ -164,7 +164,6 @@
     <ClCompile Include="Source\StdAlgorithms\CStdComparingAndAccumulating.cpp" />
     <ClCompile Include="Source\StdAlgorithms\CStdCountAndFind.cpp" />
     <ClCompile Include="Source\StdAlgorithms\CStdSort.cpp" />
-    <ClCompile Include="Source\Structures\CMyList.cpp" />
     <ClCompile Include="Source\Structures\CStructure.cpp" />
     <ClCompile Include="stdafx.cpp" />
   </ItemGroup>

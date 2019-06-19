@@ -71,9 +71,6 @@
     <ClCompile Include="Source\StdAlgorithms\CStdComparingAndAccumulating.cpp">
       <Filter>Exercises\StdAlgorithms</Filter>
     </ClCompile>
-    <ClCompile Include="Source\Structures\CMyList.cpp">
-      <Filter>Exercises\Structures</Filter>
-    </ClCompile>
     <ClCompile Include="Source\Structures\CStructure.cpp">
       <Filter>Exercises\Structures</Filter>
     </ClCompile>
