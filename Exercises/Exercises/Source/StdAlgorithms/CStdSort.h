@@ -27,6 +27,9 @@ public:
 	void IsSorted();
 	void HighesAndLowest();
 	void RandomGenerator();
+	void PartialSort();
+	void NthElement();
+
 private:
 	std::vector<int> v;
 	std::vector<Employee> staff;

@@ -24,6 +24,8 @@ void CStdSort::main()
 	IsSorted();
 	HighesAndLowest();
 	RandomGenerator();
+	PartialSort();
+	NthElement();
 }
 
 void CStdSort::Sort()
@@ -87,6 +89,8 @@ void CStdSort::HighesAndLowest()
 
 void CStdSort::RandomGenerator()
 {
+	std::cout << "SHUFFLE" << std::endl;
+
 	std::random_device randomdevice;
 	std::mt19937 generator(randomdevice());
 
@@ -95,5 +99,36 @@ void CStdSort::RandomGenerator()
 
 	//Reorders the elements in the given range [first, last) such that each possible permutation of those elements has equal probability of appearance
 	std::shuffle(begin(v2), end(v2), generator);
+}
+
+void CStdSort::PartialSort()
+{
+	std::cout << "PARTIAL_SORT / IS_SORTED_UNTIL / PARTIAL_SORT_COPY" << std::endl;
+
+	std::random_device randomdevice;
+	std::mt19937 generator(randomdevice());
+	auto v2 = v;
+	std::shuffle(begin(v2), end(v2), generator);
+
+	//This function will sort the first N levels
+	std::partial_sort(begin(v2), begin(v2) + 5, end(v2));
+
+	//Returns a pointer two the first element which is not sorted
+	int breakpoint = *is_sorted_until(begin(v2), end(v2));
+
+	std::vector<int>v3(3);
+	partial_sort_copy(begin(v), end(v), begin(v3), end(v3));
+}
+
+void CStdSort::NthElement()
+{
+	std::cout << "NTH_ELEMENT" << std::endl;
+
+	std::vector<int> v2 = { 1,5,4,2,9,7,3,8,2 };
+	int i = *(begin(v2) + 4);
+
+	//put the correct value sorting < in the N position
+	nth_element(begin(v2), begin(v2) + 4, end(v2));
+	i = *(begin(v2) + 4);
 }
 
