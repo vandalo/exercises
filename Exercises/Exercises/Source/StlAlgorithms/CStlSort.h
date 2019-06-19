@@ -25,6 +25,8 @@ public:
 	void main();
 	void Sort();
 	void IsSorted();
+	void HighesAndLowest();
 private:
 	std::vector<int> v;
+	std::vector<Employee> staff;
 };
