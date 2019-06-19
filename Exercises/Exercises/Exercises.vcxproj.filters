@@ -19,9 +19,6 @@
     <Filter Include="Exercises\StlAlgorithms">
       <UniqueIdentifier>{9a489ee6-203d-402d-87c7-0dfe856946b9}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Exercises\StlAlgorithms\Count">
-      <UniqueIdentifier>{8d041f8c-0ea0-4adb-bae3-bd4867055fe2}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -36,8 +33,8 @@
     <ClInclude Include="Source\StlAlgorithms\CStlAlgorithms.h">
       <Filter>Exercises\StlAlgorithms</Filter>
     </ClInclude>
-    <ClInclude Include="Source\StlAlgorithms\CStrlCount.h">
-      <Filter>Exercises\StlAlgorithms\Count</Filter>
+    <ClInclude Include="Source\StlAlgorithms\CStlCountAndFind.h">
+      <Filter>Exercises\StlAlgorithms</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -50,8 +47,8 @@
     <ClCompile Include="Source\StlAlgorithms\CStlAlgorithms.cpp">
       <Filter>Exercises\StlAlgorithms</Filter>
     </ClCompile>
-    <ClCompile Include="Source\StlAlgorithms\CStrlCount.cpp">
-      <Filter>Exercises\StlAlgorithms\Count</Filter>
+    <ClCompile Include="Source\StlAlgorithms\CStlCountAndFind.cpp">
+      <Filter>Exercises\StlAlgorithms</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

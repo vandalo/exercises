@@ -2,6 +2,6 @@
 
 void CStlAlgorithms::main()
 {
-	stlCount.main();
+	stlCoundAndFind.main();
 }
 

@@ -8,5 +8,5 @@ public:
 	void main();
 
 private:
-	CStlCountAndFind stlCount;
+	CStlCountAndFind stlCoundAndFind;
 };

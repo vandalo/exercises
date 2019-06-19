@@ -1,3 +1,4 @@
-﻿  CStrlCount.cpp
+﻿  CStlCountAndFind.cpp
+  LINK : C:\Projects\exercises\Exercises\Debug\Exercises.exe not found or not built by the last incremental link; performing full link
   Exercises.vcxproj -> C:\Projects\exercises\Exercises\Debug\Exercises.exe
   Exercises.vcxproj -> C:\Projects\exercises\Exercises\Debug\Exercises.pdb (Full PDB)
