@@ -36,6 +36,9 @@
     <ClInclude Include="Source\StlAlgorithms\CStlCountAndFind.h">
       <Filter>Exercises\StlAlgorithms</Filter>
     </ClInclude>
+    <ClInclude Include="Source\StlAlgorithms\CStlSort.h">
+      <Filter>Exercises\StlAlgorithms</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -48,6 +51,9 @@
       <Filter>Exercises\StlAlgorithms</Filter>
     </ClCompile>
     <ClCompile Include="Source\StlAlgorithms\CStlCountAndFind.cpp">
+      <Filter>Exercises\StlAlgorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\StlAlgorithms\CStlSort.cpp">
       <Filter>Exercises\StlAlgorithms</Filter>
     </ClCompile>
   </ItemGroup>

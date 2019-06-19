@@ -151,6 +151,7 @@
   <ItemGroup>
     <ClInclude Include="Source\StlAlgorithms\CStlAlgorithms.h" />
     <ClInclude Include="Source\StlAlgorithms\CStlCountAndFind.h" />
+    <ClInclude Include="Source\StlAlgorithms\CStlSort.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
@@ -158,6 +159,7 @@
     <ClCompile Include="Exercises.cpp" />
     <ClCompile Include="Source\StlAlgorithms\CStlAlgorithms.cpp" />
     <ClCompile Include="Source\StlAlgorithms\CStlCountAndFind.cpp" />
+    <ClCompile Include="Source\StlAlgorithms\CStlSort.cpp" />
     <ClCompile Include="stdafx.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

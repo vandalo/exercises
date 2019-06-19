@@ -1,7 +1,6 @@
 #include "CStlCountAndFind.h"
 
 #include <iostream>
-#include <vector>
 #include <algorithm>
 
 CStlCountAndFind::CStlCountAndFind() : 

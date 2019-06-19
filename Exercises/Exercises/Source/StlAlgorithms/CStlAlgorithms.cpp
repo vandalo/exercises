@@ -3,5 +3,6 @@
 void CStlAlgorithms::main()
 {
 	stlCoundAndFind.main();
+	stlSort.main();
 }
 

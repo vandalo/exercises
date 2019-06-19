@@ -1,6 +1,7 @@
 #pragma once
 
 #include "CStlCountAndFind.h"
+#include "CStlSort.h"
 
 class CStlAlgorithms {
 
@@ -9,4 +10,5 @@ public:
 
 private:
 	CStlCountAndFind stlCoundAndFind;
+	CStlSort stlSort;
 };
