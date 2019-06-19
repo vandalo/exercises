@@ -2,6 +2,7 @@
 
 #include "CStdCountAndFind.h"
 #include "CStdSort.h"
+#include "CStdComparingAndAccumulating.h"
 
 class CStdAlgorithms {
 
@@ -11,4 +12,5 @@ public:
 private:
 	CStdCountAndFind stdCoundAndFind;
 	CStdSort stdSort;
+	CStdComparingAndAccumulating stdComparingAndAccumulating;
 };

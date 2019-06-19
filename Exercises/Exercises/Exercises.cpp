@@ -3,11 +3,15 @@
 
 #include "stdafx.h"
 #include "Source\StdAlgorithms\CStdAlgorithms.h"
+#include "Source\Structures\CStructure.h"
 
 int main()
 {
-	CStdAlgorithms stlAlgorithm;
-	stlAlgorithm.main();
+	CStdAlgorithms stdAlgorithm;
+	CStructure structures;
+	//stdAlgorithm.main();
+	structures.main();
+
 	while (true) {}
     return 0;
 }

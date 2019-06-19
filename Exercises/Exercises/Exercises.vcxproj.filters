@@ -19,6 +19,9 @@
     <Filter Include="Exercises\StdAlgorithms">
       <UniqueIdentifier>{9a489ee6-203d-402d-87c7-0dfe856946b9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Exercises\Structures">
+      <UniqueIdentifier>{c20fdb2d-b3d6-4db8-a879-2261b6e7a735}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -39,6 +42,15 @@
     <ClInclude Include="Source\StdAlgorithms\CStdSort.h">
       <Filter>Exercises\StdAlgorithms</Filter>
     </ClInclude>
+    <ClInclude Include="Source\StdAlgorithms\CStdComparingAndAccumulating.h">
+      <Filter>Exercises\StdAlgorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Structures\CMyList.h">
+      <Filter>Exercises\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Structures\CStructure.h">
+      <Filter>Exercises\Structures</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -55,6 +67,15 @@
     </ClCompile>
     <ClCompile Include="Source\StdAlgorithms\CStdSort.cpp">
       <Filter>Exercises\StdAlgorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\StdAlgorithms\CStdComparingAndAccumulating.cpp">
+      <Filter>Exercises\StdAlgorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Structures\CMyList.cpp">
+      <Filter>Exercises\Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Structures\CStructure.cpp">
+      <Filter>Exercises\Structures</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
