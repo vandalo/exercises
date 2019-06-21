@@ -13,6 +13,7 @@ public:
 	void CreatingCollections();
 	void ReplaceElements();
 	void TransformElements();
+	void EliminateDuplicates();
 
 private:
 	std::vector<int> a;

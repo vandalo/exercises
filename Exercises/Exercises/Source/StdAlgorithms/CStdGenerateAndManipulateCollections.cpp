@@ -18,6 +18,7 @@ void CStdGenerateAndManipulateCollections::main()
 	CreatingCollections();
 	ReplaceElements();
 	TransformElements();
+	EliminateDuplicates();
 }
 
 void CStdGenerateAndManipulateCollections::Copy()
@@ -141,6 +142,24 @@ void CStdGenerateAndManipulateCollections::TransformElements()
 	iota(begin(v6), end(v6), 1);
 	iota(begin(a), end(a), 2);
 	std::vector<int>v7(10);
+
+	//Here we will iterate throw all elements from A and v6 will do the + operation and will set the results in v7
 	transform(begin(a), end(a), begin(v6), begin(v7), [](int elem1, int elem2) {return elem1 + elem2; });
+}
+
+void CStdGenerateAndManipulateCollections::EliminateDuplicates()
+{
+	a = { 6,0,-2,0,-2,5 };
+	std::vector<int>v7{ 3,5,7,9,11,13,15,17,19,21 };
+	//This will not remove any element as they must be consecutive
+	//Unique is based on the collection is sorted
+	unique(begin(a), end(a));
+
+	a[3] = -2;
+	auto v8 = a;
+	a.erase(unique(begin(a), end(a)), end(a));
+
+	//This will iterate all the elements between the two first iterators and copy them into third iterator removing the duplicateds
+	unique_copy(begin(v8), end(v8), begin(v7));
 }
 
