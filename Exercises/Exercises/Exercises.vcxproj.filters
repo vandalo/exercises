@@ -51,6 +51,9 @@
     <ClInclude Include="Source\Structures\CStructure.h">
       <Filter>Exercises\Structures</Filter>
     </ClInclude>
+    <ClInclude Include="Source\StdAlgorithms\CStdGenerateAndManipulateCollections.h">
+      <Filter>Exercises\StdAlgorithms</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -73,6 +76,9 @@
     </ClCompile>
     <ClCompile Include="Source\Structures\CStructure.cpp">
       <Filter>Exercises\Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\StdAlgorithms\CStdGenerateAndManipulateCollections.cpp">
+      <Filter>Exercises\StdAlgorithms</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

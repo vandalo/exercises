@@ -152,6 +152,7 @@
     <ClInclude Include="Source\StdAlgorithms\CStdAlgorithms.h" />
     <ClInclude Include="Source\StdAlgorithms\CStdComparingAndAccumulating.h" />
     <ClInclude Include="Source\StdAlgorithms\CStdCountAndFind.h" />
+    <ClInclude Include="Source\StdAlgorithms\CStdGenerateAndManipulateCollections.h" />
     <ClInclude Include="Source\StdAlgorithms\CStdSort.h" />
     <ClInclude Include="Source\Structures\CMyList.h" />
     <ClInclude Include="Source\Structures\CStructure.h" />
@@ -163,6 +164,7 @@
     <ClCompile Include="Source\StdAlgorithms\CStdAlgorithms.cpp" />
     <ClCompile Include="Source\StdAlgorithms\CStdComparingAndAccumulating.cpp" />
     <ClCompile Include="Source\StdAlgorithms\CStdCountAndFind.cpp" />
+    <ClCompile Include="Source\StdAlgorithms\CStdGenerateAndManipulateCollections.cpp" />
     <ClCompile Include="Source\StdAlgorithms\CStdSort.cpp" />
     <ClCompile Include="Source\Structures\CStructure.cpp" />
     <ClCompile Include="stdafx.cpp" />

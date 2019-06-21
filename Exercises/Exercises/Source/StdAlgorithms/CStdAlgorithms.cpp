@@ -5,5 +5,6 @@ void CStdAlgorithms::main()
 	stdCoundAndFind.main();
 	stdSort.main();
 	stdComparingAndAccumulating.main();
+	stdGenerateAndManipulateCollections.main();
 }
 
