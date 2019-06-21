@@ -16,6 +16,7 @@ void CStdGenerateAndManipulateCollections::main()
 	Move();
 	Removing();
 	CreatingCollections();
+	ReplaceElements();
 }
 
 void CStdGenerateAndManipulateCollections::Copy()
@@ -109,5 +110,18 @@ void CStdGenerateAndManipulateCollections::CreatingCollections()
 	//this will fill the vector with the number generated into the lambda, but from begin to N times
 	generate_n(begin(v6), 7, [&index]() {return (index *= 2); });
 
+}
+
+void CStdGenerateAndManipulateCollections::ReplaceElements()
+{
+	std::cout << "REPLACE / REPLACE_IF" << std::endl;
+	std::vector<int> v6{2,4,8,16,32,64,128,2,1,0};
+
+	//This will replace the elements that have 3th parameter values for last parameter value in the range of iterators
+	replace(begin(v6), end(v6), 2, 7);
+
+	//This will replace the elements that lambdas return true, with the last parameter value
+	// On this case all values less than will be replaced by 7
+	replace_if(begin(v6), end(v6), [](auto elem) {return elem < 16; }, 7);
 }
 

@@ -11,6 +11,7 @@ public:
 	void Move();
 	void Removing();
 	void CreatingCollections();
+	void ReplaceElements();
 
 private:
 	std::vector<int> a;
