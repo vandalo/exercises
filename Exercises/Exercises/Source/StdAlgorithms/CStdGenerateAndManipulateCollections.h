@@ -12,6 +12,7 @@ public:
 	void Removing();
 	void CreatingCollections();
 	void ReplaceElements();
+	void TransformElements();
 
 private:
 	std::vector<int> a;

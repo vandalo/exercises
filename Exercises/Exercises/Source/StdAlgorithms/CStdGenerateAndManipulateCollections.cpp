@@ -17,6 +17,7 @@ void CStdGenerateAndManipulateCollections::main()
 	Removing();
 	CreatingCollections();
 	ReplaceElements();
+	TransformElements();
 }
 
 void CStdGenerateAndManipulateCollections::Copy()
@@ -123,5 +124,23 @@ void CStdGenerateAndManipulateCollections::ReplaceElements()
 	//This will replace the elements that lambdas return true, with the last parameter value
 	// On this case all values less than will be replaced by 7
 	replace_if(begin(v6), end(v6), [](auto elem) {return elem < 16; }, 7);
+}
+
+void CStdGenerateAndManipulateCollections::TransformElements()
+{
+	std::cout << "TRANSFORM" << std::endl;
+	std::vector<int> v6{ 2,4,8,16,32,64,128,2,1,0 };
+	a = v6;
+
+	//iterate the elements between the two first iterators, set them in the third iterator and the value is the result of the lambda
+	transform(begin(v6), end(v6), begin(v6), [](int elem) {return elem * 2; }); 
+
+	//iterate the elements between the two first iterators and get the elem2 from the third parameter, set them in the fourth iterator and the value is the result of the lambda
+	transform(begin(a), end(a) - 1, begin(a) + 1, begin(v6), [](int elem1, int elem2) {return elem1 - elem2; });
+	
+	iota(begin(v6), end(v6), 1);
+	iota(begin(a), end(a), 2);
+	std::vector<int>v7(10);
+	transform(begin(a), end(a), begin(v6), begin(v7), [](int elem1, int elem2) {return elem1 + elem2; });
 }
 
