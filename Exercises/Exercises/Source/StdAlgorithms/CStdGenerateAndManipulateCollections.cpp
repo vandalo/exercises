@@ -19,6 +19,7 @@ void CStdGenerateAndManipulateCollections::main()
 	ReplaceElements();
 	TransformElements();
 	EliminateDuplicates();
+	Reverse();
 }
 
 void CStdGenerateAndManipulateCollections::Copy()
@@ -149,6 +150,8 @@ void CStdGenerateAndManipulateCollections::TransformElements()
 
 void CStdGenerateAndManipulateCollections::EliminateDuplicates()
 {
+	std::cout << "UNQUIE / UNQUIE_COPY" << std::endl;
+
 	a = { 6,0,-2,0,-2,5 };
 	std::vector<int>v7{ 3,5,7,9,11,13,15,17,19,21 };
 	//This will not remove any element as they must be consecutive
@@ -161,5 +164,21 @@ void CStdGenerateAndManipulateCollections::EliminateDuplicates()
 
 	//This will iterate all the elements between the two first iterators and copy them into third iterator removing the duplicateds
 	unique_copy(begin(v8), end(v8), begin(v7));
+}
+
+void CStdGenerateAndManipulateCollections::Reverse()
+{
+	std::cout << "REVERSE / ITER_SWAP / REVERSE_COPY" << std::endl;
+
+	std::string sentence = "Hello world!";
+	//this will reverse the string
+	reverse(begin(sentence), end(sentence));
+
+	//this will swap what the iterators are pointing
+	iter_swap(begin(sentence), end(sentence) - 1);
+
+	//This will reverse and copy into the third parameter iterator position
+	std::string orig = "                        ";
+	reverse_copy(begin(sentence), end(sentence), begin(orig));
 }
 

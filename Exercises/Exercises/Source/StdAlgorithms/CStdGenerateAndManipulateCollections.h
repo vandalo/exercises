@@ -14,7 +14,7 @@ public:
 	void ReplaceElements();
 	void TransformElements();
 	void EliminateDuplicates();
-
+	void Reverse();
 private:
 	std::vector<int> a;
 };
