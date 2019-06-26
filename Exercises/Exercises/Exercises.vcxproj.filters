@@ -22,6 +22,9 @@
     <Filter Include="Exercises\Structures">
       <UniqueIdentifier>{c20fdb2d-b3d6-4db8-a879-2261b6e7a735}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Exercises\Templates">
+      <UniqueIdentifier>{d946f140-b88a-41e4-b5f3-91259418b6b2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -60,6 +63,9 @@
     <ClInclude Include="Source\Structures\CMyStack.h">
       <Filter>Exercises\Structures</Filter>
     </ClInclude>
+    <ClInclude Include="Source\Templates\CMyTemplateTest.h">
+      <Filter>Exercises\Templates</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -85,6 +91,9 @@
     </ClCompile>
     <ClCompile Include="Source\StdAlgorithms\CStdGenerateAndManipulateCollections.cpp">
       <Filter>Exercises\StdAlgorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Templates\CMyTemplateTest.cpp">
+      <Filter>Exercises\Templates</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
