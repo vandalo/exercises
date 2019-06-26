@@ -13,8 +13,8 @@ struct SNode
 		m_nextElement(nullptr)
 		, m_previousElement(nullptr) 
 	{};
-	SNode(T element, SNode* nextElement, SNode* previousElement) : 
-		m_element(element)
+	SNode(T& element, SNode* nextElement, SNode* previousElement) : 
+		m_element(std::move(element))
 		, m_nextElement(nextElement)
 		, m_previousElement(previousElement)
 	{};
@@ -31,11 +31,11 @@ public:
 	void push_front(T element);
 	void pop_back();
 	void pop_front();
-	T front();
-	T back();
-
-	int size();
-	bool empty();
+	const T& front();
+	const T& back();
+	
+	int size() const;
+	bool empty() const;
 	void print();
 
 private:
@@ -112,28 +112,28 @@ void CMyList<T>::pop_front()
 
 //Return first element of the list
 template <class T>
-T CMyList<T>::front()
+const T& CMyList<T>::front()
 {
 	return m_start->m_element;
 }
 
 //Return last element of the list
 template <class T>
-T CMyList<T>::back()
+const T& CMyList<T>::back()
 {
 	return m_end->m_previousElement->m_element;
 }
 
 //Returns the size of the list
 template <class T>
-int CMyList<T>::size()
+int CMyList<T>::size() const
 {
 	return m_numElements;
 }
 
 //Returns true if the list is empty
 template <class T>
-bool CMyList<T>::empty()
+bool CMyList<T>::empty() const
 {
 	return m_numElements == 0;
 }

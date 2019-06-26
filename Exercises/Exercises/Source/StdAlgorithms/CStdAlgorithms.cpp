@@ -6,5 +6,6 @@ void CStdAlgorithms::main()
 	stdSort.main();
 	stdComparingAndAccumulating.main();
 	stdGenerateAndManipulateCollections.main();
+
 }
 

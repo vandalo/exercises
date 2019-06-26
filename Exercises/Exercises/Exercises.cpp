@@ -10,7 +10,7 @@ int main()
 	CStdAlgorithms stdAlgorithm;
 	CStructure structures;
 	stdAlgorithm.main();
-	//structures.main();
+	structures.main();
 
 	while (true) {}
     return 0;

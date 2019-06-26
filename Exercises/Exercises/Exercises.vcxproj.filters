@@ -54,6 +54,12 @@
     <ClInclude Include="Source\StdAlgorithms\CStdGenerateAndManipulateCollections.h">
       <Filter>Exercises\StdAlgorithms</Filter>
     </ClInclude>
+    <ClInclude Include="Source\Structures\CMyStaticArray.h">
+      <Filter>Exercises\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Structures\CMyStack.h">
+      <Filter>Exercises\Structures</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">

@@ -156,6 +156,8 @@
     <ClInclude Include="Source\StdAlgorithms\CStdSort.h" />
     <ClInclude Include="Source\Structures\CMyList.h" />
     <ClInclude Include="Source\Structures\CStructure.h" />
+    <ClInclude Include="Source\Structures\CMyStack.h" />
+    <ClInclude Include="Source\Structures\CMyStaticArray.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
